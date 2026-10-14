@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jaival Thakkar | Finance, Data and Strategy</title>
+  <meta name="description" content="Data Science undergraduate at NMIMS, Mumbai. Finance research, market modelling and a long-term path into consulting.">
+  <meta name="theme-color" content="#f3f3f1">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jaival Thakkar">
+  <meta property="og:description" content="Finance research, market modelling and analytics. Based in Mumbai.">
+  <meta property="og:image" content="https://jaival1506.github.io/assets/jaival-profile.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#top">Jaival Thakkar</a>
+    <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+      <a class="cv" href="Jaival_Thakkar_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="kicker">Data Science student, Mumbai</p>
+        <h1>I work where finance, data and strategy meet.</h1>
+        <p class="lede">I study markets with code. My projects range from a Brent crude intelligence system to research on volatility forecasting, and I am building towards a career in consulting.</p>
+        <div class="actions">
+          <a class="btn solid" href="#work">See my work</a>
+          <a class="btn" href="Jaival_Thakkar_Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="assets/jaival-profile.png" alt="Portrait of Jaival Thakkar in a navy suit" width="480" height="600">
+      </figure>
+      <dl class="facts">
+        <div><dt>Studying</dt><dd>B.Tech Data Science, NMIMS</dd></div>
+        <div><dt>Published</dt><dd>IEEE IESES 2025</dd></div>
+        <div><dt>Led</dt><dd>Finance Sub Head, Findrome</dd></div>
+        <div><dt>Focus</dt><dd>Markets, models, research</dd></div>
+      </dl>
+    </section>
+
+    <section id="about" class="block wrap split">
+      <h2>About</h2>
+      <div class="prose">
+        <p class="big">I like problems where the answer is not obvious and the data is messy.</p>
+        <p>I am a Data Science undergraduate at SVKM's NMIMS Mukesh Patel School of Technology Management and Engineering. Finance is where most of my curiosity sits, and I use Python and statistics to test ideas about how markets behave.</p>
+        <p>I want to go into consulting, where analytical thinking, technology and business sense have to work together. Away from my desk I follow geopolitics and sports, and both tend to find their way into the questions I choose to work on.</p>
+      </div>
+    </section>
+
+    <section id="work" class="block dark">
+      <div class="wrap">
+        <h2>Selected work</h2>
+
+        <article class="feature">
+          <div class="feature-text">
+            <p class="meta">Completed, April 2026</p>
+            <h3>Oil Market Intelligence System</h3>
+            <p>A dashboard that pulls Brent crude prices, OPEC production data and oil-market news into one place. It tracks returns and volatility from 2015 to 2026, labels market regimes with Markov chains, runs Monte Carlo price scenarios and produces a 15-day probabilistic forecast.</p>
+            <p class="tags">Python, Pandas, Statsmodels, Markov chains, Monte Carlo, Streamlit</p>
+          </div>
+          <div class="shots">
+            <img src="assets/oil-dashboard.png" alt="Oil Market Intelligence System overview page showing Brent price history" loading="lazy">
+            <img src="assets/oil-news.png" alt="News intelligence page of the oil dashboard" loading="lazy">
+          </div>
+        </article>
+
+        <div class="rows">
+          <details>
+            <summary><span class="t">AI-driven modelling of crude oil</span><span class="s">Research in progress</span></summary>
+            <div class="more"><p>Tests whether adding physical supply variables improves AI and machine learning forecasts of returns and realised volatility, and whether the improvement changes between market regimes.</p><p class="tags">Machine learning, Volatility, Supply dynamics, Regime detection</p></div>
+          </details>
+          <details>
+            <summary><span class="t">NIFTY Stock Bot</span><span class="s">Backtesting</span></summary>
+            <div class="more"><p>An intraday scanner for NIFTY 50 stocks. It downloads market data, builds indicators such as EMA, RSI, MACD, ATR and VWAP, flags trade setups and tests them against history. I am still validating entries, targets and stop-loss logic before anything goes near a live workflow.</p><p class="tags">Python, yfinance, Technical indicators, Backtesting</p></div>
+          </details>
+          <details>
+            <summary><span class="t">Global T20 Engine</span><span class="s">In progress</span></summary>
+            <div class="more"><p>A FOML project on player performance and selection in cricket, using PCA, covariance analysis, SQL and neural networks. It is still under development, so there are no final results to share yet.</p><p class="tags">PCA, Covariance, SQL, Neural networks</p></div>
+          </details>
+          <details>
+            <summary><span class="t">Gesture-controlled robotic arm</span><span class="s">Working prototype</span></summary>
+            <div class="more with-img"><div><p>A robotic arm built by our team with Arduino (C++), Python and DC motors. A joystick and gesture input drive a claw designed for precise gripping.</p><p class="tags">Arduino, C++, Python, DC motors</p></div><img src="assets/robotic-arm.png" alt="Laser-cut robotic arm with gears and yellow motors" loading="lazy"></div>
+          </details>
+          <details>
+            <summary><span class="t">Matrix compression using DCT</span><span class="s">Accepted, IEEE IESES 2025</span></summary>
+            <div class="more"><p>Co-authored research on compressing matrices with the Discrete Cosine Transform, looking at how much information survives and what it costs computationally. Accepted at the 4th IEEE International Conference on Industrial Electronics for Sustainable Energy Systems.</p><p class="tags">DCT, Matrix compression, Research</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="block wrap split">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article>
+          <p class="when">Mar 2026 to present</p>
+          <h3>Dreamsoft IT Solutions Pvt. Ltd.</h3>
+          <p class="role">Technical documentation and management</p>
+          <p>Writing structured HTML help files and documentation, and working with SQL Server, Python and business operations.</p>
+        </article>
+        <article>
+          <p class="when">Jun 2025 to Apr 2026</p>
+          <h3>Findrome, the Finance Cell of NMIMS MPSTME</h3>
+          <p class="role">Finance Sub Head</p>
+          <p>Led research, financial analysis and report writing. Mentored new finance executives on fundamentals and research method, and helped run finance events and competitions.</p>
+        </article>
+        <article>
+          <p class="when">Jun 2025</p>
+          <h3>Srujna</h3>
+          <p class="role">Volunteer, community service</p>
+          <p>Worked on financial literacy for rural women. Trained a Hindi chatbot on Glific to deliver video modules with quizzes, then visited the community to teach women to use it. We tested it with more than 100 women.</p>
+        </article>
+        <article>
+          <p class="when">May 2024 to Jul 2024</p>
+          <h3>M/s. Jay A Shah &amp; Associates</h3>
+          <p class="role">Financial Analyst Intern</p>
+          <p>Helped with financial statements, audit documentation and budgeting under senior supervision, and got first-hand exposure to reporting and accounting workflows.</p>
+        </article>
+        <article>
+          <p class="when">Sep 2022 to Jul 2024</p>
+          <h3>Programmatix Institute</h3>
+          <p class="role">Event Coordinator</p>
+          <p>Handled logistics and coordinated teams so events ran smoothly. It taught me a lot about communication under time pressure.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="block wrap split rule">
+      <h2>Research</h2>
+      <div class="prose">
+        <p>Two pieces of work I am proud of, one finished and one underway.</p>
+        <p><strong>Matrix compression using DCT.</strong> Accepted at IEEE IESES 2025, held 22 to 24 September 2025. <a href="https://attend.ieee.org/ieses-2025/" target="_blank" rel="noopener">Conference website</a></p>
+        <p><strong>AI-driven modelling of commodity markets.</strong> An ongoing study of whether supply-chain variables sharpen crude oil forecasts.</p>
+      </div>
+    </section>
+
+    <section class="block wrap split rule">
+      <h2>Education and toolkit</h2>
+      <div class="edu">
+        <div>
+          <h3>B.Tech in Data Science</h3>
+          <p>SVKM's NMIMS MPSTME, 2024 to 2028. CGPA 8.34.</p>
+          <p class="muted">12th HSC, Nirmal Memorial College of Science, 75%<br>10th ICSE, Ryan International School, 92%</p>
+        </div>
+        <dl class="stack">
+          <div><dt>Code</dt><dd>Python, C++, SQL, HTML, JavaScript</dd></div>
+          <div><dt>Data and ML</dt><dd>Pandas, NumPy, Scikit-learn, Statsmodels, PCA, time series, Markov models</dd></div>
+          <div><dt>Finance</dt><dd>Financial modelling, equity research, portfolio analysis, Bloomberg Terminal</dd></div>
+          <div><dt>Tools</dt><dd>Excel, Google Sheets, Streamlit, Git, VS Code, MySQL, SQL Server</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="contact" class="block dark contact">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p class="big">If you are working on something in finance, data or strategy, I would like to hear about it.</p>
+        <p class="links">
+          <a href="mailto:jaivalthakkar52@gmail.com">jaivalthakkar52@gmail.com</a>
+          <a href="https://www.linkedin.com/in/jaival-thakkar/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/Jaival1506" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap"><span>Jaival Thakkar, Mumbai</span><span id="year"></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
